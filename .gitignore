@@ -1,0 +1,32 @@
+# altos.web — generated output only.
+#
+# Defense in depth: publish.sh stages an explicit v2/ allowlist (publish.sh --index-v2), so
+# nothing outside v2/ should ever be staged. This file is the second line of defence, because
+# an unattended add-commit-push into a PUBLIC repo turns any stray file into a
+# worldwide disclosure with no review step.
+
+# Local guidance, not delivery content.
+CLAUDE.md
+
+# Publisher state: plaintext SHA-256 of every published file.
+# Tracked historically by mistake (3.8 MB rewritten wholesale in every commit, and a
+# public plaintext-confirmation oracle). Untrack with:
+#     git rm --cached publish_state.json
+# Keep the LOCAL file — deleting it makes the next publish rewrite every novel.
+publish_state.json
+
+# Anything that has no business in a delivery repo.
+*.json.bak
+*.tmp
+*.log
+.DS_Store
+.env
+appsettings*.json
+*.pem
+*.key
+id_*
+*.p12
+*.mobileprovision
+
+# v1 (full chapter text) was retired on 2026-10-30 and must never be published again.
+v1/
