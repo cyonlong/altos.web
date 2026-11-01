@@ -1,0 +1,5 @@
+{
+ "keyId": "pub1",
+ "body": "{\"expiresAt\":\"2026-12-31T13:09:50Z\",\"issuedAt\":\"2026-11-01T13:09:50Z\",\"purpose\":\"index\",\"schema\":1,\"seq\":1793538590,\"sources\":[{\"adapterVersion\":1,\"catalogSeq\":1793538590,\"enabled\":true,\"hosts\":[\"https://www.69shuba.com/\",\"https://69shuba.com/\",\"https://www.69shuba.cx/\"],\"name\":\"69shuba\",\"pathId\":\"s1\",\"rate\":{\"requestMs\":1500,\"searchMs\":5000},\"sourceId\":\"69shuba\"}]}",
+ "signature": "aF+LG2Mmbu1S+DqbThLqloeo3i68bOrmfHBdQY6ppAwUG8B/4SDdDZZtDmAFUM5j1O+arVCEmX9Ki1h8ESItBA=="
+}

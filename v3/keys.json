@@ -1,0 +1,5 @@
+{
+ "keyId": "rel1",
+ "body": "{\"expiresAt\":\"2027-01-30T13:05:50Z\",\"issuedAt\":\"2026-11-01T13:05:50Z\",\"keys\":[{\"keyId\":\"pub1\",\"notAfter\":\"2027-01-30T13:05:50Z\",\"publicKey\":\"657da2a9d03dbf22019ebf4a1997edfcd814641b5ee846efc0a54d737da6d9fc\",\"purposes\":[\"index\",\"catalog\"]}],\"purpose\":\"keys\",\"schema\":1,\"seq\":1793538350}",
+ "signature": "IrExRkqJdvo426RCPSeqz6tWxNSDRZZFbWnfNn9QQbjTde8etCdD2MKNJq8PtG5LG+U/U5Mf/jlwUTe5A1Z7AQ=="
+}
